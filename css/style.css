@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(144, 90, 194, 0.322);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+main {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+    width: 100%;
+    height: 1300px;
+}
+
+.cabecalho {
+    border: 7px solid;
+    border-color: rgb(97, 42, 148);
+
+    width: 100%;
+    height: 20%;
+
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.form {
+    border: 7px solid;
+    border-color: rgb(97, 42, 148);
+
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 50%;
+    height: 90%;
+
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__campos {
+    width: 100%;
+    height: 95%;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form__campos input {
+    border: none;
+    background-color: rgba(214, 216, 218, 0.644);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 80%;
+    height: 10%;
+    font-size: larger;
+}
+
+.form__campos label {
+    font-size: x-large;
+}
+
+.form__check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form__check__preferencia {
+    background-color: rgba(214, 216, 218, 0.644);
+
+    font-size: x-large;
+    border:none;
+    border-radius: 5px;
+    
+    padding: 5px;
+    margin: 5px;
+    width: 80%;
+    height: 10%;
+    font-size: larger;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form__check__genero {
+    background-color: rgba(214, 216, 218, 0.644);
+
+    font-size: x-large;
+    border:none;
+    border-radius: 5px;
+
+    padding: 5px;
+    margin: 5px;
+    width: 80%;
+    height: 10%;
+    font-size: larger;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form__check__botoes {
+    font-size: x-large;
+
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form__check__botoes button {
+    font-size: x-large;
+    width: 30%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(97, 42, 148);
+    color: white;
+}
+
+.form__check__genero__caixa {
+    background-color: rgba(214, 216, 218, 0.644);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    height: 51%;
+    font-size: larger;
+}
+
+.form__check__genero__caixa textarea {
+    border: none;
+    border-radius: 15px;
+}
+
+.form__check {
+    width: 100%;
+    height: 95%;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rodape {
+    font-size: x-large;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rodape__informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+    background-color: rgb(97, 42, 148);
+    color: white;
+    text-decoration: none;
+
+    width: 50%;
+    height: 80%;
+
+    border-radius: 5px;
+}
+
+.rodape a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(97, 42, 148);
+    color: white;
+    text-decoration: none;
+
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+.form__check__botoes button:hover {
+    font-size: xx-large;
+    width: 35%;
+    height: 60px;
+}
+
+
+
+
+

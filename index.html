@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Form</title>
+    </head>
+    <body>
+        
+        <main>
+
+            <nav class="cabecalho">
+                <h1 class="cabecalho__titulo">
+                    Formulário Cinema
+                </h1>
+            </nav>
+
+            <form action="/form" method="post" class="form">
+                <div class="form__campos">
+
+                    <h2 class="form__campos__titulo">Formulário Cinema</h2>
+
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome"/>
+        
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"/>
+        
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone"/>
+        
+                    <label for="data de nascimento">Data de Nascimento</label>
+                    <input type="text" name="data de nascimento" id="data de nascimento"/>
+        
+                </div>               
+
+            </form>
+
+            <form form action="/form" method="post" class="form">
+
+                <div class="form__check">
+
+                    <h2 class="form__check__titulo">
+                        Qual a sua preferência??
+                    </h2>
+
+                    <div class="form__check__preferencia">
+
+                        <input type="radio" id="serie" name="preferencia" value="serie"></label>
+                        <label for="serie">Série</label>
+        
+                        <input type="radio" id="filme" name="preferencia" value="filme"></label>
+                        <label for="filme">Filme</label>
+        
+                        <input type="radio" id="documentario" name="preferencia" value="documentario"></label>
+                        <label for="documentario">Documentário</label>
+                    </div>
+    
+                    <h2 class="form__check__titulo">
+                        Qual o seu gênero favorito??
+                    </h2>
+
+                    <div class="form__check__genero">
+                        <input type="checkbox" name="filmes" id="comedia" value="comedia">
+                        <label for="comedia">Comédia</label>
+        
+                        <input type="checkbox" name="filmes" id="terror" value="terror">
+                        <label for="terror">Terror</label>
+        
+                        <input type="checkbox" name="filmes" id="acao" value="acao">
+                        <label for="acao">Ação</label>
+        
+                        <input type="checkbox" name="filmes" id="drama" value="drama">
+                        <label for="drama">Drama</label>
+        
+                        <input type="checkbox" name="filmes" id="anime" value="anime">
+                        <label for="anime">Anime</label>
+                    </div>
+
+
+                    <h2 class="form__check__titulo">
+                        Nos conte mais sobre seus gostos!!
+                    </h2>
+                    <div class="form__check__genero__caixa">
+                        <textarea name="gostos" id="gostos"></textarea>
+                    </div>
+
+                    <div class="form__check__botoes">
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Enviar</button>
+                    </div> 
+
+            </form>
+
+        </main>
+        
+        <footer class="rodape">
+
+            <div class="rodape__informacoes">
+                <p>
+                    Christian Vinícius INFO21
+                </p>
+                    <a href="https://www.instagram.com/christianoliveira806/">Instagram</a>
+                    <a href="https://github.com/Chriiis1421">Github</a>
+            </div>
+            
+        </footer>
+
+    </body>
+</html>
